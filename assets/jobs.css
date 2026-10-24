@@ -178,6 +178,42 @@ footer p { margin: 0 0 0.4rem; }
 }
 .fixed-cta .btn { padding: 0.7rem 0.4rem; font-size: 1rem; }
 
+.fuyou {
+  margin: 0 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  background: var(--orange-soft);
+  color: var(--orange-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+}
+.fuyou span { display: block; font-size: 1rem; color: var(--text); }
+
+/* スマホ：シニアの方にも読みやすい大きさ（rem を18px基準に） */
+@media (max-width: 600px) {
+  html { font-size: 18px; }
+  body { font-size: 1rem; line-height: 1.8; padding-bottom: 6rem; }
+  header.site-header p { font-size: 0.9rem; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero .updated { font-size: 0.9rem; }
+  h2 { font-size: 1.4rem; }
+  h2 .en { font-size: 0.9rem; }
+  h3 { font-size: 1.2rem; line-height: 1.7; }
+  .faq-cat { font-size: 1.2rem; }
+  .big { font-size: 1.4rem; }
+  .shien .amount { font-size: 1.6rem; }
+  details summary { font-size: 1.05rem; line-height: 1.7; padding: 1rem; }
+  .btn { font-size: 1.1rem; padding: 1.1rem 1rem; min-height: 3.4rem; }
+  .fixed-cta { grid-template-columns: 1fr 1.5fr; }
+  .fixed-cta .btn { font-size: 1.05rem; padding: 0.8rem 0.4rem; min-height: 3.4rem; white-space: nowrap; }
+  .fuyou { font-size: 1.35rem; }
+  .fuyou span { font-size: 1rem; }
+  footer { font-size: 0.9rem; }
+}
+
 @media (min-width: 720px) {
   body { font-size: 17px; }
   .hero { padding: 2.6rem 1rem 2.2rem; }
